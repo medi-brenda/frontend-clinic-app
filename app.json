@@ -1,0 +1,60 @@
+{
+  "expo": {
+    "name": "醫結",
+    "slug": "mediconcen-clinic-app",
+    "privacy": "public",
+    "androidStatusBar": {
+      "backgroundColor": "#ff8566"
+    },
+    "platforms": ["ios", "android", "web"],
+    "version": "1.6.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/images/logo-512.png",
+    "splash": {
+      "image": "./assets/images/splash-white.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "enabled": true,
+      "checkAutomatically": "ON_ERROR_RECOVERY"
+    },
+    "assetBundlePatterns": ["./src/assets/images/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mediconcen.clinic",
+      "buildNumber": "1.6.0",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Allow Mediconcen Clinic App to use the camera to scan QR code for verifying patient's eligibility and payment",
+        "NSPhotoLibraryAddUsageDescription": "Allow Mediconcen Clinic App to access the photo library for uploading necessary supporting documents",
+        "NSPhotoLibraryUsageDescription ": "Allow Mediconcen Clinic App to access the photo library for uploading necessary supporting documents"
+      }
+    },
+    "android": {
+      "package": "com.mediconcen.clinic",
+      "useNextNotificationsApi": true,
+      "googleServicesFile": "./google-services.json",
+      "versionCode": 60,
+      "permissions": ["CAMERA", "WRITE_EXTERNAL_STORAGE", "READ_EXTERNAL_STORAGE"]
+    },
+    "description": "",
+    "extra": {
+      "bugsnag": {
+        "apiKey": "4d553792245f9514a05ecc85af2ce7bd"
+      }
+    },
+    "hooks": {
+      "postPublish": [
+        {
+          "file": "@bugsnag/expo/hooks/post-publish.js",
+          "config": {}
+        }
+      ]
+    },
+    "notification": {
+      "icon": "./logo-96.png",
+      "androidCollapsedTitle": "MediConCen - 醫結"
+    }
+  }
+}

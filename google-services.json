@@ -1,0 +1,97 @@
+{
+  "project_info": {
+    "project_number": "1062990930597",
+    "project_id": "mediconcen-app-20210203",
+    "storage_bucket": "mediconcen-app-20210203.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1062990930597:android:6fa6d9a8f0e379f799634c",
+        "android_client_info": {
+          "package_name": "com.mediconcen.clinic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1062990930597-pamk18ap2aoifa64800maagqorssl29r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjYL20I6lVsIQkMmFi1jCwSo4N6tcV1J0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1062990930597-pamk18ap2aoifa64800maagqorssl29r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1062990930597:android:dd1f2264515e28d199634c",
+        "android_client_info": {
+          "package_name": "com.mediconcen.doctor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1062990930597-pamk18ap2aoifa64800maagqorssl29r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjYL20I6lVsIQkMmFi1jCwSo4N6tcV1J0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1062990930597-pamk18ap2aoifa64800maagqorssl29r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1062990930597:android:dd1f2264515e28d199634c",
+        "android_client_info": {
+          "package_name": "com.mediconcen.testing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1062990930597-pamk18ap2aoifa64800maagqorssl29r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjYL20I6lVsIQkMmFi1jCwSo4N6tcV1J0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1062990930597-pamk18ap2aoifa64800maagqorssl29r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
